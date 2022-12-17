@@ -19,5 +19,6 @@ StatisticItem.propTypes = {
   stat: PropTypes.shape({
     total: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired
-  })
+  }),
+  icon: PropTypes.func.isRequired
 }
